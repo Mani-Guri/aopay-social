@@ -1,36 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>AOPay Technology - Social Links</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AOPay Technology – Connect with Us</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a2c5f4e2f9.js" crossorigin="anonymous"></script>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: #f5f5f5;
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(to right, #eef2f3, #8e9eab);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
       text-align: center;
-      padding-top: 50px;
     }
     h1 {
+      margin-top: 40px;
       color: #333;
+      font-size: 2.5rem;
     }
-    .btn {
+    .icon-strip {
+      margin-top: 20px;
+      font-size: 2rem;
+      color: #444;
+    }
+    .icon-strip i {
+      margin: 0 10px;
+      transition: transform 0.3s;
+    }
+    .icon-strip i:hover {
+      transform: scale(1.2);
+    }
+    .buttons {
+      margin-top: 40px;
+    }
+    .link-btn {
       display: inline-block;
       margin: 15px;
-      padding: 15px 30px;
+      padding: 15px 25px;
       font-size: 18px;
       color: white;
       text-decoration: none;
       border-radius: 10px;
+      transition: background 0.3s;
     }
     .insta { background: #E1306C; }
+    .insta:hover { background: #c8235c; }
     .linkedin { background: #0077B5; }
+    .linkedin:hover { background: #005f93; }
     .x { background: #000; }
+    .x:hover { background: #222; }
+    footer {
+      margin-top: 60px;
+      font-size: 14px;
+      color: #666;
+    }
   </style>
 </head>
 <body>
+
   <h1>Connect with AOPay Technology</h1>
-  <a href="https://www.instagram.com/aopaytechnology/" class="btn insta" target="_blank">Instagram</a><br>
-  <a href="https://www.linkedin.com/company/aopay-tecnology/" class="btn linkedin" target="_blank">LinkedIn</a><br>
-  <a href="https://x.com/AopayTechnology" class="btn x" target="_blank">X (Twitter)</a>
+
+  <div class="icon-strip">
+    <i class="fas fa-cloud"></i>
+    <i class="fas fa-plane"></i>
+    <i class="fas fa-server"></i>
+    <i class="fas fa-cogs"></i>
+  </div>
+
+  <div class="buttons">
+    <a href="https://www.instagram.com/aopaytechnology/" class="link-btn insta" target="_blank">
+      <i class="fab fa-instagram"></i> Instagram
+    </a>
+    <a href="https://www.linkedin.com/company/aopay-tecnology/" class="link-btn linkedin" target="_blank">
+      <i class="fab fa-linkedin"></i> LinkedIn
+    </a>
+    <a href="https://x.com/AopayTechnology" class="link-btn x" target="_blank">
+      <i class="fab fa-x-twitter"></i> X (Twitter)
+    </a>
+  </div>
+
+  <footer>
+    © 2025 AOPay Technology. All rights reserved.
+  </footer>
+
 </body>
 </html>
+
